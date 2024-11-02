@@ -16,7 +16,7 @@
     width: 96vw;
 }
 .public {
-
+    margin-left:100px;
     min-width: 320px; /* Example minimum width */
     min-height: 500px; /* Example minimum height */
 }
