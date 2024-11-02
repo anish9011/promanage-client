@@ -21,7 +21,8 @@
     min-width: 320px; /* Example minimum width */
     min-height: 500px; /* Example minimum height */
     position:absolute;
-    left:300px;
+    left:900px;
+    margin-left:500px;
 }
 
 .cards {
