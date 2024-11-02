@@ -6,11 +6,12 @@
     letter-spacing: 0em;
     text-align: left;
     position:absolute;
+    left:0px;
     display: flex;
     align-items: center;
     /* justify-content: center; */
 
-
+    
     padding-top: 31px;
     padding-left: 31px;
     width: 96vw;
@@ -20,7 +21,7 @@
     height: 100vh;
     min-width: 320px; /* Example minimum width */
     min-height: 500px; /* Example minimum height */
-    margin-left:300px;
+    margin-left:350px;
 }
 
 .cards {
