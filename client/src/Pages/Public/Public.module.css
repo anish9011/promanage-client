@@ -7,7 +7,7 @@
     text-align: left;
     position:absolute;
     left:0px;
-    top:0px;
+    top:-50px;
     display: flex;
     align-items: center;
     /* justify-content: center; */
