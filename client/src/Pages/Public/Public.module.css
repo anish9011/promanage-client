@@ -5,7 +5,7 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-
+    position:absolute;
     display: flex;
     align-items: center;
     /* justify-content: center; */
@@ -20,7 +20,7 @@
     height: 100vh;
     min-width: 320px; /* Example minimum width */
     min-height: 500px; /* Example minimum height */
-    margin-left:250px;
+    margin-left:300px;
 }
 
 .cards {
