@@ -20,8 +20,7 @@
 .public {
     width: 700px;
     height: 700px;
-    min-width: 320px; /* Example minimum width */
-    min-height: 500px; /* Example minimum height */
+
     margin-left:450px;
     margin-top:250px;
     border: 2px solid #EDF5FE;    
