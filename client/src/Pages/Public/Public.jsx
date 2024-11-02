@@ -72,8 +72,6 @@ const Public = ({ taskId }) => {
 
     return (
         <>
-            {console.log("theserverDate", theserverDate)}
-            {console.log(publicTaskData)}
             {publicTaskData ? (
                 <div className={styles.public}>
                     <div className={styles.logo}>
