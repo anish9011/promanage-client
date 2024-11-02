@@ -1,0 +1,291 @@
+/* .addModalElement {
+    border-radius: 22px;
+    width: 40vw;
+    height: 50vh;
+
+    background: #fff;
+} */
+
+.title {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #20102B;
+}
+
+.priority{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #20102B;
+}
+
+.checklist{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #20102B;
+}
+
+.asterisk {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #FF0000;
+}
+
+.inputTitle {
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 10px 16px;
+    /* width: 588px; */
+    height: 44px;
+    background: #fff;
+
+    width: 93%;
+    font-size: 21px;
+}
+
+.inputTitle::placeholder {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+    color: #9B959F;
+}
+
+.addPriority {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    padding: 5px 10px;
+    height: 31px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #767575;
+    margin-left: 5px;
+    background-color: transparent;
+}
+
+.addPriorityColor {
+    border-radius: 8px;
+    border: solid transparent;
+    padding: 5px 10px;
+    background: #eeecec;
+    margin-left: 5px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #767575;
+}
+
+.assignTo{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #20102B;
+    margin-top: 42px;
+}
+
+.assignTitle{
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    padding: 10px 16px;
+    height: 44px;
+    background: #fff;
+    width: 490px;
+    font-size: 21px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.assignTitle::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+    color: #9B959F;
+}
+
+
+.checklistTitle{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #20102B;
+}
+
+.checklist {
+    overflow-y: scroll;
+    height: 223px;
+}
+
+/* .addButton {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    color: #767575;
+} */
+
+.button1 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #707070;
+
+
+    width: 185px;
+    height: 45px;
+
+    box-shadow: 0 2px 12px 0 rgba(130, 105, 140, 0.2);
+
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    width: 185px;
+    height: 45px;
+
+    background-color: transparent;
+}
+
+.cancel {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #CF3636;
+
+    width: 162px;
+    height: 45px;
+
+    box-shadow: 0 2px 12px 0 rgba(130, 105, 140, 0.2);
+
+    border: 1px solid #cf3636;
+    border-radius: 12px;
+    width: 162px;
+    height: 45px;
+
+    background-color: transparent;
+}
+
+.save {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    border-radius: 12px;
+    width: 162px;
+    height: 45px;
+
+    background: #17a2b8;
+    border-color: transparent;
+}
+
+
+.dropdown {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 520px; /* Choose a single width */
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 10;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.dropdownItem {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdownImg {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    background-color: #FFEBEB;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px; 
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 19px; 
+    color: #000; 
+    font-weight: 400; 
+    text-align: center;
+}
+
+.dropdownEmail {
+    font-family: 'Inter', sans-serif; 
+    font-size: 16px; 
+    font-weight: 500; 
+    color: #20102B; 
+    margin-left: 15px;
+    flex-grow: 1; 
+}
+
+.dropdown button {
+    border-radius: 8px;
+    border: 1px solid #E2E2E2;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center; 
+    color: #767575;
+    width: 100px; 
+    height: 31px;
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.dropdown button:hover {
+    background-color: #eeecec;
+}

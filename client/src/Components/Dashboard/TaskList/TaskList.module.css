@@ -1,0 +1,44 @@
+.taskContainer {
+    display: flex;
+}
+
+.inputWrapper {
+    position: relative; /* Set the position to relative */
+}
+
+.checkbox {
+    position: absolute; /* Absolute positioning */
+    top: 55%; /* Center it vertically */
+    left: 10px; /* Position from the left side */
+    transform: translateY(-50%); /* Adjust for exact vertical centering */
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 2px solid #e2e2e2;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.inputTask {
+    border: 1px solid #e2e2e2;
+    border-radius: 12px;
+    padding: 12px 12px 12px 40px; /* Add padding to make space for the checkbox */
+    width: 300px;
+    height: 36px;
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.inputTask::placeholder {
+    font-family: Inter;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #767575;
+}
