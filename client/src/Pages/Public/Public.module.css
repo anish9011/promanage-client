@@ -20,9 +20,7 @@
     height: 100vh;
     min-width: 320px; /* Example minimum width */
     min-height: 500px; /* Example minimum height */
-    position:absolute;
-
-    margin-left:1000px;
+    margin-left:500px;
 }
 
 .cards {
